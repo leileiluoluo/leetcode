@@ -1,5 +1,5 @@
-# leetcode
-golang solutions for leetcode algorithm problems
+# LeetCode
+Golang solutions for LeetCode algorithm problems
 
-# my blog
+# Blog
 https://leileiluoluo.com
