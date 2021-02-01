@@ -21,13 +21,13 @@ func getPermutation(s string, k int) string {
 	factorial := factorial(i)
 	nextFactorial := factorial / i
 	if k <= nextFactorial {
-		return s[:1] + getPermutaion(s[1:], k)
+		return s[:1] + getPermutation(s[1:], k)
 	}
 	c, k := (k-1)/nextFactorial, (k-1)%nextFactorial+1
 	if c > 0 {
 		s = string(s[c]) + s[:c] + s[c+1:]
 	}
-	return getPermutaion(s, k)
+	return getPermutation(s, k)
 }
 
 func getPermutation(n int, k int) string {
