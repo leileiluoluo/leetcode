@@ -13,7 +13,7 @@ func factorial(i int) int {
 	return f
 }
 
-func getPermutaion(s string, k int) string {
+func getPermutation(s string, k int) string {
 	i := len(s)
 	if 1 == i {
 		return s
@@ -35,7 +35,7 @@ func getPermutation(n int, k int) string {
 	for i := 1; i <= n; i++ {
 		s += strconv.Itoa(i)
 	}
-	return getPermutaion(s, k)
+	return getPermutation(s, k)
 }
 
 func main() {
