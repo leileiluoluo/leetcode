@@ -1,5 +1,5 @@
 # LeetCode
-Golang & Python solutions for LeetCode algorithm problems
 
-# Blog
-https://leileiluoluo.com
+Golang solutions for LeetCode algorithm problems.
+
+[https://leileiluoluo.com/leetcode-golang-implementations/](https://leileiluoluo.com/leetcode-golang-implementations/)
